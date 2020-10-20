@@ -1,0 +1,18 @@
+{
+  "properties": [
+    {
+      "name": "cn-say-hello-msvcs.ribbon.eureka.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Description for cn-say-hello-msvcs.ribbon.eureka.enabled."
+    },
+    {
+      "name": "cn-say-hello-msvcs.ribbon.listOfServers",
+      "type": "java.lang.String",
+      "description": "Description for cn-say-hello-msvcs.ribbon.listOfServers."
+    },
+    {
+      "name": "cn-say-hello-msvcs.ribbon.ServerListRefreshInterval",
+      "type": "java.lang.Integer",
+      "description": "Description for cn-say-hello-msvcs.ribbon.ServerListRefreshInterval."
+    }
+  ] }

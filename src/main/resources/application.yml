@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: cn-user-msvcs
+
+server:
+  port: 8100
+
+cn-say-hello-msvcs:
+  ribbon:
+    eureka:
+      enabled: false
+    listOfServers: localhost:8090,localhost:9090,localhost:9092
+    ServerListRefreshInterval: 15000
+
+
